@@ -25,5 +25,5 @@ An AI ChatBot that responds according to the user input. It uses davinci engine 
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/ParthBhuva97)
+- [@ParthBhuva97](https://www.github.com/ParthBhuva97)
 
