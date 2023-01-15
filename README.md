@@ -17,9 +17,9 @@ An AI ChatBot that responds according to the user input. It uses davinci engine 
 
 #### Completions Endpoint
 
-```http
+``http
   POST /v1/completions
-```
+``
 
 
 
