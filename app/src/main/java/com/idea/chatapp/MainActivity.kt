@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
                         val choices = completionResponse?.choices
                         val text = choices?.get(0)?.text
                         answer.text = text.toString()
+                        input.text = null
                     } else {
                         Log.i("Error msg", "onResponse: ${response.errorBody()?.string()}")
                         Toast.makeText(this@MainActivity,response.errorBody()?.string(),Toast.LENGTH_SHORT).show()
