@@ -27,3 +27,6 @@ An AI ChatBot that responds according to the user input. It uses davinci engine 
 
 - [@ParthBhuva97](https://www.github.com/ParthBhuva97)
 
+## Futures
+
+- Better UI Design is required
