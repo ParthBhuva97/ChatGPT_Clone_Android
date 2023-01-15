@@ -48,8 +48,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 override fun onFailure(call: Call<CompletionResponse>, t: Throwable) {
-                    Toast.makeText(this@MainActivity,"Failed",Toast.LENGTH_SHORT).show()
-                    Toast.makeText(this@MainActivity,call.toString(),Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@MainActivity,"Request Timed Out. Please try again.",Toast.LENGTH_SHORT).show()
                 }
             })
         }
